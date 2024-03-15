@@ -71,6 +71,7 @@ Be careful only to change this when `DEBUG = True` unless you know what you're d
 ### Pattern library settings
 
 Still in Django settings, set the [`PATTERN_LIBRARY`](./reference/api.md#pattern_library) setting. Here is an example showing the defaults:
+(- Note for Windows users: modify the format of paths accordingly eg: `patterns\\components` (backslash instead of forward))
 
 ```python
 PATTERN_LIBRARY = {
